@@ -125,10 +125,6 @@ main {
     font-size: 30px;
     line-height: 45px;
 }
-.porowanie_stron_mocy
-{
-
-}
 .porowanie_stron_mocy h1{
     width: 100%;
     font-size: 75px;
@@ -163,7 +159,14 @@ main {
     list-style-type: none;
 
 }
+
+.gry_i_filmy h1{
+    margin: 40px;
+    font-size: 75px;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+}
 footer {
-    height: 200px;
-    background-color: grey;
+    height: 100px;
+    background-color: black;
 }
