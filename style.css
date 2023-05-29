@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #191919;
+    background-image: url(https://lumiere-a.akamaihd.net/v1/images/background-stars-desktop_v2_96b6d74a.jpeg?region=0%2C0%2C2048%2C1600);
+    background-position: center top;
+}
+header {
+    height: 225px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+header img{
+    width: 250px;
+    margin-block: 30px;
+}
+
+nav{
+    background-color: black;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    border-top: grey 0.5px solid;
+    border-bottom: grey 0.5px solid;
+
+}
+ol{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 18px;
+    height: 35px;
+    line-height: 200%;
+    display: inline-block;
+}
+ol a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+ol > li{
+    float: left;
+    width: 250px;
+    height: 40px;
+    border-right: 1px dashed grey;
+}
+ol > li:first-child{
+    border-left: 1px dashed grey;
+}
+ol > li:hover{
+    background-color: white;
+}
+ol > li:hover > a{
+    color: black;
+}
+ol > li > ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    display: none;
+}
+ol > li > ul > li{
+    background-color: grey;
+    position: relative;
+    z-index: 100;
+    border-top: 1px dashed rgb(50, 50, 50);
+}
+ol > li > ul > li:hover{
+    background-color: rgb(66, 66, 66);
+
+}
+ol > li > ul > li:hover > a{
+    color: black;
+} 
+ol > li:hover > ul{
+    display: block;
+}
+
+main {
+    background-color: #000000;
+    width: 85%;
+    margin: auto;
+    min-height: 80vh;
+}
+.specjalna_czcionka {
+    font-family: 'Bebas Neue', sans-serif;
+}
+.trzymacz_glownego_zdjecia{
+    height: 700px;
+    position: relative;
+    /* Dzieki position relative div z napisami który ma position absolute ma jako punkt odniesienia tego diva    */
+}
+.trzymacz_glownego_zdjecia img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 0%;
+
+}
+.napisy_na_glownym_zdj {
+    position: absolute;
+    width: 600px;
+    height: 250px;
+    margin: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+}
+
+.czym_sa_starwars h1{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 70px;
+}
+.czym_sa_starwars p{
+    padding: 20px;
+    font-size: 30px;
+    line-height: 45px;
+}
+.porowanie_stron_mocy
+{
+
+}
+.porowanie_stron_mocy h1{
+    width: 100%;
+    font-size: 75px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+}
+.porowanie_stron_mocy img{
+    width: 300px;
+    margin: 5% 30%;
+    border-radius: 20px;
+}
+.strony_mocy {
+        display: flex;
+}
+.strony_mocy > div {
+    width: 100%;
+    padding: 20px 50px;
+    font-size: 25px;
+    
+}
+.strony_mocy > div h2{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.strony_mocy  li{
+    font-size: 30px;
+    text-align: justify;
+}
+.strony_mocy ul {
+    list-style-type: none;
+
+}
+footer {
+    height: 200px;
+    background-color: grey;
+}
